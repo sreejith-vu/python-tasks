@@ -2,8 +2,7 @@
 # Description:	This script will go through the schemas specified in the customer.txt and checks whether they are upgraded or not.
 #		And sends the status report to mentioned email address.
 #		Contents of customer.txt should be in format of - <schema> <build version>
-#		Example: nano 12.0.7-8951
-# Usage:	./HMSUpgrade_status_report.py
+# Usage:	./upgrade_status_report_to_email.py
 
 import os
 import sys
